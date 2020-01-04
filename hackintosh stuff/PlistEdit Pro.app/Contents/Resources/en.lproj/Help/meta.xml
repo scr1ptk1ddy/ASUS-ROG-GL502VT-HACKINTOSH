@@ -1,0 +1,315 @@
+<VPWebExportMetaInfo>
+  <documentName>PlistEditPro docs</documentName>
+  <documentUUID>0166ac3f-0a13-4dcc-b6f9-5886d27298f8</documentUUID>
+  <startPageFileName>table of contents.html</startPageFileName>
+  <page>
+    <displayName>About property lists</displayName>
+    <fileName>about property lists.html</fileName>
+    <createDate>1242839806.206064</createDate>
+    <modifiedDate>1256688931.950104</modifiedDate>
+    <uuid>970bcbca-c3a1-4413-9477-c998d2a0f047</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Applescript</displayName>
+    <fileName>applescript.html</fileName>
+    <createDate>1242867817.956240</createDate>
+    <modifiedDate>1242867947.317353</modifiedDate>
+    <uuid>f61ea794-0fba-4f5c-86fb-b8304fc0720a</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Arrays</displayName>
+    <fileName>arrays.html</fileName>
+    <createDate>1242858514.603081</createDate>
+    <modifiedDate>1256772643.872437</modifiedDate>
+    <uuid>0dcc7f4f-9de1-4eb9-8ec8-e34648fdbc37</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Creating a structure definition</displayName>
+    <fileName>creating a structure definition.html</fileName>
+    <createDate>1252110117.037348</createDate>
+    <modifiedDate>1252110525.700377</modifiedDate>
+    <uuid>0eca35a7-d653-4b51-925a-5eda5d758d44</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Dictionaries</displayName>
+    <fileName>dictionaries.html</fileName>
+    <createDate>1242857940.519715</createDate>
+    <modifiedDate>1256772628.578971</modifiedDate>
+    <uuid>8398c4b4-87a8-477c-9bb8-794d746859f2</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Editing an existing definition</displayName>
+    <fileName>editing an existing definition.html</fileName>
+    <createDate>1242856275.583983</createDate>
+    <modifiedDate>1256772578.265023</modifiedDate>
+    <uuid>28dcfdba-2381-4155-b4f0-c73fa741f1d4</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Editing property lists</displayName>
+    <fileName>editing property lists.html</fileName>
+    <createDate>1242839878.982819</createDate>
+    <modifiedDate>1252109329.145768</modifiedDate>
+    <uuid>28bf23ba-7165-475e-ba89-2b7ab11dcee1</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Editing raw property list text</displayName>
+    <fileName>editing raw property list text.html</fileName>
+    <createDate>1242844112.964068</createDate>
+    <modifiedDate>1242851202.077818</modifiedDate>
+    <uuid>c9a52316-09a1-4897-b9e1-ec6d36faac41</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Favorites</displayName>
+    <fileName>favorites.html</fileName>
+    <createDate>1242852482.781027</createDate>
+    <modifiedDate>1252110095.496840</modifiedDate>
+    <uuid>c43b68c4-3dc0-4587-b1aa-45dfa5cee805</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Find and replace</displayName>
+    <fileName>find and replace.html</fileName>
+    <createDate>1242840803.818006</createDate>
+    <modifiedDate>1242840886.287753</modifiedDate>
+    <uuid>5e79d1ec-ad33-4f91-b560-f1f38897101a</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>How structure definitions work</displayName>
+    <fileName>how structure definitions work.html</fileName>
+    <createDate>1242855498.972450</createDate>
+    <modifiedDate>1256772537.171346</modifiedDate>
+    <uuid>3ca4c6ea-29f7-4de0-8640-c02ea1172d7b</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Introduction</displayName>
+    <fileName>introduction.html</fileName>
+    <createDate>1235522928.449708</createDate>
+    <modifiedDate>1256768854.915732</modifiedDate>
+    <uuid>ee2b9fba-1fd7-4c39-be1a-f5dde6c5c382</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Keyboard shortcuts</displayName>
+    <fileName>keyboard shortcuts.html</fileName>
+    <createDate>1242840392.413706</createDate>
+    <modifiedDate>1242840795.643067</modifiedDate>
+    <uuid>70883fce-d35b-4258-bbc6-a41283c37316</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Managing installed structure definitions</displayName>
+    <fileName>managing installed structure definitions.html</fileName>
+    <createDate>1242865815.059907</createDate>
+    <modifiedDate>1252108221.921314</modifiedDate>
+    <uuid>f78f9512-7e0f-485f-8b4e-d0f9096434db</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Multi-file searches</displayName>
+    <fileName>multi-file searches.html</fileName>
+    <createDate>1242852243.602238</createDate>
+    <modifiedDate>1242852300.543408</modifiedDate>
+    <uuid>fcdc0a69-2a7e-4587-be67-706d19a6a042</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Plain values</displayName>
+    <fileName>plain values.html</fileName>
+    <createDate>1242857202.960948</createDate>
+    <modifiedDate>1252106756.364647</modifiedDate>
+    <uuid>fe803b7b-c191-4852-a917-8176f7389d8b</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Preferences</displayName>
+    <fileName>preferences.html</fileName>
+    <createDate>1242867422.000245</createDate>
+    <modifiedDate>1242868164.395102</modifiedDate>
+    <uuid>dfcc55e0-abcd-412d-aeaf-dc7a197e84b7</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Property list browsers</displayName>
+    <fileName>property list browsers.html</fileName>
+    <createDate>1242851202.225825</createDate>
+    <modifiedDate>1242852237.967908</modifiedDate>
+    <uuid>ed2a353a-32b1-4fd6-8306-8b33316d1190</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Property list structure definitions</displayName>
+    <fileName>property list structure definitions.html</fileName>
+    <createDate>1242852512.413696</createDate>
+    <modifiedDate>1252110057.377324</modifiedDate>
+    <uuid>0e05db76-41f8-41b0-b952-62041c30aaa7</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Registration</displayName>
+    <fileName>registration.html</fileName>
+    <createDate>1242868232.703650</createDate>
+    <modifiedDate>1257013851.322864</modifiedDate>
+    <uuid>f499e4ac-52a5-42c8-9f15-49852b02334a</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Release Notes</displayName>
+    <fileName>release notes.html</fileName>
+    <createDate>1237348795.287346</createDate>
+    <modifiedDate>1257019775.262720</modifiedDate>
+    <uuid>c6658115-401b-4a20-9665-c9ea269a28d3</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Saving browser configurations</displayName>
+    <fileName>saving browser configurations.html</fileName>
+    <createDate>1242852382.747103</createDate>
+    <modifiedDate>1242852412.016262</modifiedDate>
+    <uuid>7eff16d8-ed78-4911-a88d-4060d06f23a1</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Scripting</displayName>
+    <fileName>scripting.html</fileName>
+    <createDate>1242867788.621589</createDate>
+    <modifiedDate>1252110530.130886</modifiedDate>
+    <uuid>23458fc8-721c-496b-8726-1bb2bfe62fdc</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Sorting property lists</displayName>
+    <fileName>sorting property lists.html</fileName>
+    <createDate>1242840947.516868</createDate>
+    <modifiedDate>1256688977.436370</modifiedDate>
+    <uuid>e9037277-0c5d-4126-b257-e47402f9f1a4</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Support</displayName>
+    <fileName>support.html</fileName>
+    <createDate>1237348543.315911</createDate>
+    <modifiedDate>1256774887.808306</modifiedDate>
+    <uuid>06f64888-83f3-4bba-8e25-1fbbed5c684c</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Table of Contents</displayName>
+    <fileName>table of contents.html</fileName>
+    <createDate>1201646332.494372</createDate>
+    <modifiedDate>1256687747.313026</modifiedDate>
+    <uuid>740f48a6-03f6-4712-92ff-6725ff2660f1</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>The pledit command line tool</displayName>
+    <fileName>the pledit command line tool.html</fileName>
+    <createDate>1242867947.505623</createDate>
+    <modifiedDate>1242868232.540536</modifiedDate>
+    <uuid>22216556-a179-4853-8915-4b14cbc277db</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>The preferences browser</displayName>
+    <fileName>the preferences browser.html</fileName>
+    <createDate>1242852415.403490</createDate>
+    <modifiedDate>1242852470.168275</modifiedDate>
+    <uuid>1e439219-06cd-499e-bf47-b9f61eb061b3</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Using a structure definition when editing a property list</displayName>
+    <fileName>using a structure definition when editing a property list.html</fileName>
+    <createDate>1242852678.757659</createDate>
+    <modifiedDate>1252108487.591792</modifiedDate>
+    <uuid>bae59809-a44e-4be7-8e5c-77317fb49894</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Variant dictionaries</displayName>
+    <fileName>variant dictionaries.html</fileName>
+    <createDate>1242858792.718084</createDate>
+    <modifiedDate>1252108221.551522</modifiedDate>
+    <uuid>d24813b9-21e5-402e-927f-05861520aa08</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+  <page>
+    <displayName>Viewing data in different formats</displayName>
+    <fileName>viewing data in different formats.html</fileName>
+    <createDate>1242842481.224884</createDate>
+    <modifiedDate>1256689254.421761</modifiedDate>
+    <uuid>da4ad5af-bed8-4e25-8613-e29426b511bf</uuid>
+    <version>0</version>
+    <categories>
+    </categories>
+  </page>
+</VPWebExportMetaInfo>

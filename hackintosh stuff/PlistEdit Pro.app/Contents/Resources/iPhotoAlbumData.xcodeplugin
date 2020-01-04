@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin name="iPhoto Album Data" id="com.fatcatsoftware.structure-definition.iphoto-album-data" version="1.0" xmlns:plisteditpro="http://www.fatcatsoftware.com/plisteditpro">
+    <extension point="com.apple.xcode.plist.structure-definition" name="iPhoto Album Data" id="com.fatcatsoftware.iphoto-album-data">
+        <definition name="_root_" localizedString="iPhoto Album Data" class="Dictionary">
+            <dictionaryKeys>
+                <key name="Application Version" localizedString="Application Version" class="String" use="optional"></key>
+                <key name="Archive Path" localizedString="Archive Path" class="String" use="optional"></key>
+                <key name="ArchiveId" localizedString="ArchiveId" class="String" use="optional"></key>
+                <key name="List of Albums" localizedString="List of Albums" class="AlbumArray" use="optional"></key>
+                <key name="List of Keywords" localizedString="List of Keywords" class="StringDictionary" use="optional"></key>
+                <key name="List of Rolls" localizedString="List of Rolls" class="RollArray" use="optional"></key>
+                <key name="Major Version" localizedString="Major Version" class="Number" use="optional"></key>
+                <key name="Master Image List" localizedString="Master Image List" class="PhotoDictionary" use="optional"></key>
+                <key name="Minor Version" localizedString="Minor Version" class="Number" use="optional"></key>
+                <key name="Parent" localizedString="Parent" class="Number" use="optional"></key>
+            </dictionaryKeys>
+        </definition>
+        <definition name="AlbumArray" localizedString="AlbumArray" class="Array" arrayElementClass="Album"></definition>
+        <definition name="Album" localizedString="Album" class="Dictionary" identifyingKey="AlbumName">
+            <dictionaryKeys>
+                <key name="Album Type" localizedString="Album Type" class="AlbumType" use="optional"></key>
+                <key name="AlbumId" localizedString="AlbumId" class="Number" use="optional"></key>
+                <key name="AlbumName" localizedString="AlbumName" class="String" use="optional"></key>
+                <key name="Filter Mode" localizedString="Filter Mode" class="FilterMode" use="optional"></key>
+                <key name="GUID" localizedString="GUID" class="String" use="optional"></key>
+                <key name="KeyList" localizedString="KeyList" class="StringArray" use="optional"></key>
+                <key name="Master" localizedString="Master" class="Boolean" use="optional"></key>
+                <key name="PanAndZoom" localizedString="PanAndZoom" class="StringYesNo" use="optional"></key>
+                <key name="Parent" localizedString="Parent" class="Number" use="optional"></key>
+                <key name="PhotoCount" localizedString="PhotoCount" class="Number" use="optional"></key>
+                <key name="PlayMusic" localizedString="PlayMusic" class="StringYesNo" use="optional"></key>
+                <key name="RepeatSlideShow" localizedString="RepeatSlideShow" class="StringYesNo" use="optional"></key>
+                <key name="SecondsPerSlide" localizedString="SecondsPerSlide" class="Number" use="optional"></key>
+                <key name="ShuffleSlides" localizedString="ShuffleSlides" class="Boolean" use="optional"></key>
+                <key name="SlideShowUseTitles" localizedString="SlideShowUseTitles" class="Boolean" use="optional"></key>
+                <key name="SongPath" localizedString="SongPath" class="String" use="optional"></key>
+                <key name="TransitionDirection" localizedString="TransitionDirection" class="Number" use="optional"></key>
+                <key name="TransitionName" localizedString="TransitionName" class="String" use="optional"></key>
+                <key name="TransitionSpeed" localizedString="TransitionSpeed" class="Number" use="optional"></key>
+                <key name="URL" localizedString="URL" class="String" use="optional"></key>
+            </dictionaryKeys>
+        </definition>
+        <definition name="AlbumType" localizedString="AlbumType" class="String" default="Regular">
+            <allowableValues>
+                <value name="Folder" localizedString="Folder"></value>
+                <value name="Regular" localizedString="Regular"></value>
+                <value name="Special Month" localizedString="Special Month"></value>
+                <value name="Smart" localizedString="Smart"></value>
+                <value name="Special Roll" localizedString="Special Roll"></value>
+            </allowableValues>
+        </definition>
+        <definition name="FilterMode" localizedString="FilterMode" class="String" default="All">
+            <allowableValues>
+                <value name="Any" localizedString="Any"></value>
+                <value name="All" localizedString="All"></value>
+            </allowableValues>
+        </definition>
+        <definition name="RollArray" localizedString="RollArray" class="Array" arrayElementClass="Roll"></definition>
+        <definition name="Roll" localizedString="Roll" class="Dictionary" identifyingKey="RollName">
+            <dictionaryKeys>
+                <key name="Album Type" localizedString="Album Type" class="AlbumType" use="optional"></key>
+                <key name="AlbumId" localizedString="AlbumId" class="Number" use="optional"></key>
+                <key name="AlbumName" localizedString="AlbumName" class="String" use="optional"></key>
+                <key name="Comment" localizedString="Comment" class="String" use="optional"></key>
+                <key name="KeyList" localizedString="KeyList" class="StringArray" use="optional"></key>
+                <key name="KeyPhotoKey" localizedString="KeyPhotoKey" class="String" use="optional"></key>
+                <key name="Parent" localizedString="Parent" class="Number" use="optional"></key>
+                <key name="PhotoCount" localizedString="PhotoCount" class="Number" use="optional"></key>
+                <key name="RollDateAsTimerInterval" localizedString="RollDateAsTimerInterval" class="TimeIntervalDate" use="optional"></key>
+                <key name="RollID" localizedString="RollID" class="Number" use="optional"></key>
+                <key name="RollName" localizedString="RollName" class="String" use="optional"></key>
+            </dictionaryKeys>
+        </definition>
+        <definition name="PhotoDictionary" localizedString="PhotoDictionary" class="Dictionary" defaultDictionaryValueClass="Photo"></definition>
+        <definition name="Photo" localizedString="Photo" class="Dictionary" identifyingKey="ImagePath">
+            <dictionaryKeys>
+                <key name="Aspect Ratio" localizedString="Aspect Ratio" class="Number" use="optional"></key>
+                <key name="Caption" localizedString="Caption" class="String" use="optional"></key>
+                <key name="Comment" localizedString="Comment" class="String" use="optional"></key>
+                <key name="DateAsTimerInterval" localizedString="DateAsTimerInterval" class="TimeIntervalDate" use="optional"></key>
+                <key name="ImagePath" localizedString="ImagePath" class="String" use="optional"></key>
+                <key name="JpegIsCacheForRAW" localizedString="JpegIsCacheForRAW" class="Boolean" use="optional"></key>
+                <key name="Keywords" localizedString="Keywords" class="StringArray" use="optional"></key>
+                <key name="MediaType" localizedString="MediaType" class="MediaType" use="optional"></key>
+                <key name="MetaModDateAsTimerInterval" localizedString="MetaModDateAsTimerInterval" class="TimeIntervalDate" use="optional"></key>
+                <key name="ModDateAsTimerInterval" localizedString="ModDateAsTimerInterval" class="TimeIntervalDate" use="optional"></key>
+                <key name="OriginalPath" localizedString="OriginalPath" class="String" use="optional"></key>
+                <key name="Rating" localizedString="Rating" class="Number" use="optional"></key>
+                <key name="Roll" localizedString="Roll" class="Number" use="optional"></key>
+                <key name="ThumbPath" localizedString="ThumbPath" class="String" use="optional"></key>
+            </dictionaryKeys>
+        </definition>
+        <definition name="StringArray" localizedString="StringArray" class="Array" arrayElementClass="String"></definition>
+        <definition name="MediaType" localizedString="MediaType" class="String" default="Regular">
+            <allowableValues>
+                <value name="Image" localizedString="Image"></value>
+                <value name="Movie" localizedString="Movie"></value>
+            </allowableValues>
+        </definition>
+        <definition name="StringYesNo" localizedString="StringYesNo" class="String" default="NO">
+            <allowableValues>
+                <value name="YES" localizedString="YES"></value>
+                <value name="NO" localizedString="NO"></value>
+            </allowableValues>
+        </definition>
+        <definition name="TimeIntervalDate" localizedString="TimeIntervalDate" class="Number" default="0"></definition>
+        <definition name="StringDictionary" localizedString="StringDictionary" class="Dictionary" defaultDictionaryValueClass="String"></definition>
+    </extension>
+</plugin>

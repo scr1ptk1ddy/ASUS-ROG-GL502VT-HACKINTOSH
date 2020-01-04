@@ -1,0 +1,285 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=macintosh">
+<link media="all" rel="stylesheet" href="task_style.css">
+<title>PlistEdit Pro Help - Preferences</title>
+
+</head>
+<body>
+<div id="banner">
+	<div id="machelp">
+	<a class="bread" href="table%20of%20contents.html">Table of Contents</a>
+	</div>
+	<div id="index">
+	<a class="leftborder" href="_page_index.html">index</a>
+	</div>
+</div>
+<div id="mainbox">
+	<div id="caticon">
+	<img width="32" height="32" alt="PlistEdit Pro Icon" src="PlistEditPro.png">
+	</div>
+</div>
+
+
+
+<div id="pagetitle">
+	<h1>Preferences</h1><br/>
+</div>
+
+<style type="text/css">
+p.p1 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 16.0px; font: 12.0px 'Lucida Grande'}
+p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Lucida Grande'}
+p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Lucida Grande'; min-height: 15.0px}
+p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 12.0px 'Lucida Grande'}
+p.p5 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 16.0px; font: 12.0px 'Lucida Grande'; min-height: 15.0px}
+p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 12.0px Monaco}
+p.p7 {margin: 0.0px 0.0px 6.0px 0.0px; line-height: 16.0px; font: 12.0px 'Lucida Grande'; min-height: 15.0px}
+li.li4 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 12.0px 'Lucida Grande'}
+span.s1 {text-decoration: underline}
+span.s2 {font: 12.0px Monaco}
+table.t1 {border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292}
+td.td1 {width: 67.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 9.0px 9.0px 9.0px 9.0px}
+td.td2 {width: 705.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 9.0px 9.0px 9.0px 9.0px}
+ul.ul1 {list-style-type: disc}
+</style>
+
+<p class="p1">PlistEdit Pro provides several ways to customize the program to the way you work. You can access these preferences by selecting the Preferences menu item in the PlistEdit Pro menu, or by pressing command-comma.</p>
+<p class="p2"><b>General tab</b></p>
+<p class="p3"><br></p>
+<ul class="ul1">
+<li class="li4"><b>Default class for new objects</b>: Selects what type of object you would like to create when adding a new child or sibling to your property list.</li>
+<li class="li4"><b>Default property list format</b>: Selects what format (XML, ASCII, or binary) you want newly created property lists to be stored in.</li>
+<li class="li4"><b>Don't share find panel strings with other applications</b>: In Mac OS X, it is conventional for applications that have find panels to share a global find string. For instance, if you do a find of a particular string in TextEdit, and then switch over to do a find in Safari or Project Builder, the string you searched for in TextEdit will appear in their find panels. PlistEdit Pro also follows this convention, but if you don't like this behavior, you can turn it off here.</li>
+<li class="li4"><b>Tell system to save preferences as XML instead of binary</b>: Starting with OS X 10.4 (Tiger), in order to save space and give better performance, plist files in the Preferences folder are written out in binary format instead of XML. However, this makes such files less convenient to work with using other applications, such as a text editor, or a script that does textual searches in plist files. Checking this box will tell the operating system to revert to the pre-Tiger behavior of writing preferences as XML. If you already have preference files that are binary that you wish to convert to XML, open up <a href="the%20preferences%20browser.html"><span class="s1">the preferences browser</span></a> and use the Change Format command available in the Operations menu.</li>
+<li class="li4"><b>Enable Xcode integration</b>: If this checkbox is checked, then when saving a property list file in the folder of an open Xcode project, PlistEdit Pro will give you the option of adding the file to the project and one or more of its targets. PlistEdit Pro will also function as an external editor for Xcode, so that any files in your Xcode project with unsaved changes in PlistEdit Pro can be saved when building in Xcode.</li>
+<li class="li4"><b>Ask to revert when file changes on disk</b>: When this option is enabled, PlistEdit Pro will watch the files you have open to see if they have changed on disk since you last opened them. When you bring PlistEdit Pro to the front, it will automatically ask you if you want to revert to the version on disk for any files that have changed.</li>
+<li class="li4"><b>Enable autocompletion</b>: Enables the autocompletion feature of PlistEdit Pro, which provides completion suggestions based on existing plist content and property list definitions.</li>
+<li class="li4"><b>Automatically check for updates</b>: Checking this box will make PlistEdit Pro check on the internet for new versions at regular intervals. Checking the "Check at startup" You can also check for updates manually using the "Check For Updates" menu item.</li>
+<li class="li4"><b>Install Command Line Tool</b>: Installs <a href="the%20pledit%20command%20line%20tool.html"><span class="s1">the pledit command line tool</span></a></li>
+</ul>
+<p class="p5"><br></p>
+<p class="p2"><b>Display tab</b></p>
+<p class="p3"><b></b><br></p>
+<ul class="ul1">
+<li class="li4"><b>Outline font</b>: Selects the font that the outline view uses to display property list content. Click the Choose... button to select a different font from the font panel.</li>
+<li class="li4"><b>Text font</b>: Selects the font that the text view uses to display property list content. Click the Choose... button to select a different font from the font panel.</li>
+<li class="li4"><b>Browser font</b>: Selects the font that property list browser use to display their file lists. Click the Choose... button to select a different font from the font panel.</li>
+<li class="li4"><b>Display alternating row colors in tables</b>: Enabling this option will cause every other row in a table to be colored light blue, making it easier to distinguish between rows.</li>
+<li class="li4"><b>Color XML tags</b>: Allows you to choose a color with which to color the tags in the raw text of an XML formatted property list</li>
+<li class="li4"><b>Remember formatter type by key</b>: When enabled, if you use the "View As" menu to view an item under a particular key of a dictionary as a different type, PlistEdit Pro will remember the type you chose for that key and automatically display any items under that key as that same type. For example, if you choose to view a data object under the key "_NSAlias" as an alias record, PlistEdit Pro will then display all data objects it finds under the "_NSAlias" key as alias records without you having to change each one manually.</li>
+<li class="li4"><b>Sort options</b>: Allows you to customize how sorting is done in PlistEdit Pro. Case sensitive sorting will cause all uppercase characters to be sorted before all lowercase characters, and enabling numeric sorting will cause any numeric values to be treated and sorted as numbers, rather than as alphabetic characters.</li>
+<li class="li4"><b>Date format string</b>: Specifies how you would like dates to be displayed. To customize this string, you can use one or more placeholders to specify different portions of the date and how you would like them arranged. For example, if you just want a short representation of the date, you could enter "%m/%d/%y", which would result in a date looking like "03/24/01". The list of placeholders you can use is:<br>
+</li>
+</ul>
+<table cellspacing="0" cellpadding="0" class="t1">
+<tbody>
+<tr>
+<td valign="middle" class="td1">
+<p class="p4">Placeholder</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">Description</p>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="td1">
+<p class="p6">%%</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">a <span class="s2">'%'</span> character</p>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="td1">
+<p class="p6">%a</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">abbreviated weekday name</p>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="td1">
+<p class="p6">%A</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">full weekday name</p>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="td1">
+<p class="p6">%b</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">abbreviated month name</p>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="td1">
+<p class="p6">%B</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">full month name</p>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="td1">
+<p class="p6">%c</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">shorthand for "<span class="s2">%X %x</span>", the locale format for date and time</p>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="td1">
+<p class="p6">%d</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">day of the month as a decimal number (01-31)</p>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="td1">
+<p class="p6">%e</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">same as <span class="s2">%d</span> but does not print the leading 0 for days 1 through 9 (unlike <span class="s2">strftime()</span>, does not print a leading space)</p>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="td1">
+<p class="p6">%F</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">milliseconds as a decimal number (000-999)</p>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="td1">
+<p class="p6">%H</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">hour based on a 24-hour clock as a decimal number (00-23)</p>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="td1">
+<p class="p6">%I</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">hour based on a 12-hour clock as a decimal number (01-12)</p>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="td1">
+<p class="p6">%j</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">day of the year as a decimal number (001-366)</p>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="td1">
+<p class="p6">%m</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">month as a decimal number (01-12)</p>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="td1">
+<p class="p6">%M</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">minute as a decimal number (00-59)</p>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="td1">
+<p class="p6">%p</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">AM/PM designation for the locale</p>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="td1">
+<p class="p6">%S</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">second as a decimal number (00-59)</p>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="td1">
+<p class="p6">%w</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">weekday as a decimal number (0-6), where Sunday is 0</p>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="td1">
+<p class="p6">%x</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">date using the date representation for the locale, including the time zone (produces different results from <span class="s2">strftime()</span>)</p>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="td1">
+<p class="p6">%X</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">time using the time representation for the locale (produces different results from <span class="s2">strftime()</span>)</p>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="td1">
+<p class="p6">%y</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">year without century (00-99)</p>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="td1">
+<p class="p6">%Y</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">year with century (such as 1990)</p>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="td1">
+<p class="p6">%Z</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">time zone name (such as Pacific Daylight Time; produces different results from <span class="s2">strftime()</span>)</p>
+</td>
+</tr>
+<tr>
+<td valign="middle" class="td1">
+<p class="p6">%z</p>
+</td>
+<td valign="middle" class="td2">
+<p class="p4">time zone offset in hours and minutes from GMT (HHMM)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="p7"><br></p>
+<p class="p2"><b>Definitions tab</b></p>
+<p class="p1">This tab displays all the structure definitions that are installed on your system. Refer to "<a href="managing%20installed%20structure%20definitions.html"><span class="s1">Managing installed structure definitions</span></a>" for more details on this tab.</p>
+<p class="p2"><b>Browsing tab</b></p>
+<p class="p1">This tab contains settings that affect <a href="property%20list%20browsers.html"><span class="s1">property list browsers</span></a>. When creating a new browser from a folder, or adding new items to an existing browser window, you can tell PlistEdit Pro what file extensions to scan the newly added folder for. Only files that match an extension in the list will be added. PlistEdit Pro can also read the 'plst' resource from the resource fork of a file (used by non-bundled Carbon applications). Checking the "Scan resource forks" checkbox will add any file that has a resource fork with a 'plst' resource whose ID is 0. Be aware that enabling this option can cause the scanning process to take significantly longer.</p>
+
+
+<p style="float: left;"><a href="managing installed structure definitions.html">&lt;&lt; Managing installed structure definitions</a></p>
+<p style="float: right;"><a href="scripting.html">Scripting &gt;&gt;</a></p>
+
+
+</body>
+</html>
+

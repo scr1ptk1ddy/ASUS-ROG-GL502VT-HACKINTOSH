@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin name="Xcode Text Macro" id="com.fatcatsoftware.xcode-text-macro" version="1.0" xmlns:plisteditpro="http://www.fatcatsoftware.com/plisteditpro">
+    <extension point="com.apple.xcode.plist.structure-definition" name="Xcode Macro" id="com.fatcatsoftware.xcode-macro">
+        <definition name="_root_" localizedString="Xcode Macro" class="Array" arrayElementClass="MacroDictionary">
+            <arrayEntries>
+                <entry class="MacroDictionary"></entry>
+                <entry class="MacroDictionary"></entry>
+            </arrayEntries>
+        </definition>
+        <definition name="LanguageArray" class="Array" arrayElementClass="String"></definition>
+        <definition name="MacroDictionary" class="Dictionary">
+            <dictionaryKeys>
+                <key name="BasedOn" localizedString="BasedOn" class="String" use="default"></key>
+                <key name="CompletionPrefix" localizedString="CompletionPrefix" class="String" use="default"></key>
+                <key name="ComputerLanguages" localizedString="ComputerLanguages" class="LanguageArray" use="optional"></key>
+                <key name="DefaultSettings" localizedString="DefaultSettings" class="SettingsDictionary" use="optional"></key>
+                <key name="Identifier" localizedString="Identifier" class="String" use="default"></key>
+                <key name="IsMenu" localizedString="IsMenu" class="StringYesNo" use="optional"></key>
+                <key name="IsMenuItem" localizedString="IsMenuItem" class="StringYesNo" use="default"></key>
+                <key name="Name" localizedString="Name" class="String" use="default"></key>
+                <key name="TextString" localizedString="TextString" class="String" use="default"></key>
+            </dictionaryKeys>
+        </definition>
+        <definition name="SettingsDictionary" class="Dictionary">
+            <dictionaryKeys>
+                <key name="BlockSeparator" localizedString="BlockSeparator" class="String" use="default"></key>
+                <key name="InExpressionsSpacing" localizedString="InExpressionsSpacing" class="String" use="default"></key>
+                <key name="PostBlockSeparator" localizedString="PostBlockSeparator" class="String" use="default"></key>
+                <key name="PreExpressionsSpacing" localizedString="PreExpressionsSpacing" class="String" use="default"></key>
+            </dictionaryKeys>
+        </definition>
+        <definition name="StringYesNo" class="String" default="NO">
+            <allowableValues>
+                <value name="YES" localizedString="YES"></value>
+                <value name="NO" localizedString="NO"></value>
+            </allowableValues>
+        </definition>
+    </extension>
+</plugin>
