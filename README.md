@@ -25,7 +25,7 @@
 02. You will see Clover with many options use your mouse to click on "BOOT OS X INSTALL FROM INSTALL macOS Mojave".
 03. It will take some time to load so be patient after it loads click on "Disk Utility".
 04. From the left panel select the disk drive on which you want to install the macOS on.
-05. Format the disk drive as "Mac OS Extended (Journaled)" then go back to the main options.
+05. Format the disk drive as "APFS" then go back to the main options.
 06. Click on "Install macOS" from the main menu and select your disk drive which you formatted earlier and then click "Install".
 07. During the installation the system will reboot many times so be patient and don't freak out.
 08. After the installtation has been done setup your system by following the onscreen prompts.
@@ -45,16 +45,16 @@
 ### WHAT WORKS :)
 
 - Intel HD Graphics
-- HDMI (widescreen displays have some issues)
+- HDMI
 - USB ports
-- Keyboard (backlight works sometimes)
+- Keyboard
 - Function Keys
 - Ethernet
-- Wifi (?)
-- Battery Status (Says zero percentage but it knows when charging)
+- Wifi (use ac1200 usb-ac53 nano)
+- Battery Status
 - UVC HD Webcam
 - Speaker and Microphone
-- Touchpad (included the required kext no need to patch)
+- Touchpad
 
 ### WHAT DOESN'T WORK :(
 
